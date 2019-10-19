@@ -1,33 +1,9 @@
-<!-- Top Header Area -->
-<div class="top-header-area">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="top-header-content d-flex align-items-center justify-content-between">
-					<!-- Logo -->
-					<div class="logo">
-						<a href="index.html">
-							<h2>Remaja Mesjid</h2>
-						</a>
-					</div>
-
-					<!-- Login Search Area -->
-					<div class="login-search-area d-flex align-items-center">
-						<!-- Login -->
-						<div class="login d-flex">
-							<!-- <a href="#">Login</a>
-                            <a href="#">Register</a> -->
-						</div>
-						<!-- Search Form -->
-						<div class="search-form">
-							<form action="#" method="post">
-								<input type="search" name="search" class="form-control" placeholder="Search">
-								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+        <div class="container">
+        	<div class="row">
+        		<div class="col-12">
+        			<!--  style="background-image: linear-gradient(to right, #FFFFFF , #54A954);" -->
+        			<nav class="navbar navbar-expand-lg">
+        				<!-- Logo -->
+        				<a class="navbar-brand" href="index.html"><img src="<?= base_url('front-assets/') ?>img/core-img/logo.png" alt="Logo" width="40"></a>
+        				<!-- Navbar Toggler -->
+        				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

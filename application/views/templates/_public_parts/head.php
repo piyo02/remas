@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <!-- Title -->
-    <title>Remaja Mesjid</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="<?= base_url('front-assets/plugins/css/') ?>style.css">
-
+    <title>Nurul Iman</title>
+    <link rel="icon" href="<?= base_url('front-assets/') ?>img/core-img/favicon.ico">
+    <link rel="stylesheet" href="<?= base_url('front-assets/plugins/') ?>style.css">
 </head>
 
 <body>
-    <!-- ##### Header Area Start ##### -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="world-load"></div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
     <header class="header-area">

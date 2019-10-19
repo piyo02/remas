@@ -1,81 +1,53 @@
-<!-- ##### Popular News Area Start ##### -->
-<div class="popular-news-area section-padding-80-50">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 col-lg-12">
-				<div class="section-heading">
-					<h6>Tentang Kami</h6>
-				</div>
+<!-- ********** Hero Area Start ********** -->
+<div class="hero-area height-400 bg-img background-overlay" id="bg4""></div>
+<!-- ********** Hero Area End ********** -->
 
-				<div class="row">
-
-
-				</div>
-			</div>
-
-		</div>
-	</div>
-</div>
-<!-- ##### Popular News Area End ##### -->
-
-<!-- ##### Video Post Area Start ##### -->
-<div class="video-post-area bg-img bg-overlay" style="background-image: url(img/bg-img/bg1.jpg);">
+<div class=" regular-page-wrap section-padding-100">
 	<div class="container">
 		<div class="row justify-content-center">
-			<!-- Single Video Post -->
-			<div class="col-12 col-sm-6 col-md-6 mr-1 row justify-content-center">
-				<h1 class="text-white">VISI</h1>
-				<div class="single-video-post">
-					<img src="<?= base_url('front-assets/') ?>img/bg-img/video1.jpg" alt="">
-					<!-- Video Button -->
-					<div class="videobtn">
-						<a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-					</div>
+			<div class="col-12 col-md-10 col-lg-8">
+				<div class="title">
+					<h5>Strukur Organisasi</h5>
 				</div>
-			</div>
-
-			<!-- Single Video Post -->
-			<div class="col-12 col-sm-6 col-md-6 row justify-content-center">
-				<h1 class="text-white">MISI</h1>
-				<div class="single-video-post">
-					<img src="<?= base_url('front-assets/') ?>img/bg-img/video2.jpg" alt="">
-					<!-- Video Button -->
-					<div class="videobtn">
-						<a href="https://www.youtube.com/watch?v=5BQr-j3BBzU" class="videoPlayer"><i class="fa fa-play" aria-hidden="true"></i></a>
-					</div>
+				<div class="single-blog-post wow fadeInUpBig" data-wow-delay="0.2s">
+					<!-- <div class="page-content"> -->
+					<img src="<?= base_url('front-assets/') ?>img\blog-img\Structure.jpg" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- ##### Video Post Area End ##### -->
 
-<!-- ##### Editorial Post Area Start ##### -->
-<div class="editors-pick-post-area section-padding-80-50">
+
+<div class="main-content-wrapper section-padding-100">
 	<div class="container">
-		<div class="row">
-			<!-- Editors Pick -->
-			<div class="col-12 col-md-12 col-lg-12">
-				<div class="section-heading">
-					<h6>Strukur Organisasi</h6>
-				</div>
-
-				<div class="row">
-
-					<!-- Single Post -->
-					<div class="col-12 col-lg-12 row justify-content-center">
-						<div class="single-blog-post col-lg-8">
-							<div class="post-thumb">
-								<a href="#"><img src="<?= base_url('front-assets/') ?>img/Structure.jpg" alt=""></a>
-							</div>
-						</div>
+		<div class="row justify-content-center">
+			<!-- Single Blog Post -->
+			<div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig col-5 mr-4" data-wow-delay="0.4s">
+				<div class="post-content">
+					<a href="#" class="text-center headline">
+						<h3>VISI</h3>
+					</a>
+					<p>SEPERTI Kampoeng Ramadhan, kali ini kesibukan pengurus Masjid Jogokariyan kembali meningkat drastis. Segenap SDM yang ada dilibatkan...</p>
+					<!-- Post Meta -->
+					<div class="post-meta">
+						<p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
 					</div>
-
-
 				</div>
 			</div>
-
+			<!-- Single Blog Post -->
+			<div class="single-blog-post post-style-4 d-flex align-items-center wow fadeInUpBig col-5" data-wow-delay="0.4s">
+				<div class="post-content">
+					<a href="#" class="text-center headline">
+						<h3>MISI</h3>
+					</a>
+					<p>SEPERTI Kampoeng Ramadhan, kali ini kesibukan pengurus Masjid Jogokariyan kembali meningkat drastis. Segenap SDM yang ada dilibatkan...</p>
+					<!-- Post Meta -->
+					<div class="post-meta">
+						<p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-<!-- ##### Editorial Post Area End ##### -->

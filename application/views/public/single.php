@@ -1,88 +1,281 @@
-<link rel="stylesheet" type="text/css" href="<?= base_url('front-assets/') ?>styles/single.css">
-<link rel="stylesheet" type="text/css" href="<?= base_url('front-assets/') ?>styles/single_responsive.css">
-	<!-- Home -->
+								<?= $file_content ?>                
+                <!-- ========== Sidebar Area ========== -->
+                <div class="col-12 col-md-8 col-lg-4">
+                    <div class="post-sidebar-area wow fadeInUpBig" data-wow-delay="0.2s">
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">TPA Nurul Iman</h5>
+                            <div class="widget-content">
+                                <p>Taman Pendidikan Al-Qur’an (TPA) dan Taman Kanak-Kanak Al-Qur’an (TKA) Nurul Iman Pondok Bambu.</p>
+                            </div>
+                        </div>
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">Cerita Teratas</h5>
+                            <div class="widget-content">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post post-style-2 d-flex align-items-center widget-post">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/blog-img/b11.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5 class="mb-0">Operasi Militer Turki Lebih Besar Dari yang Diperkirakan</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post post-style-2 d-flex align-items-center widget-post">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/blog-img/b13.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5 class="mb-0">Ilmu yang Menyibukkan</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post post-style-2 d-flex align-items-center widget-post">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/blog-img/b14.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5 class="mb-0">Jadilah Orang Tua Sayang Anak, Bukan Sayang HP</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post post-style-2 d-flex align-items-center widget-post">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/blog-img/b10.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5 class="mb-0">Kisah Masjid dan Jamaah Jogokariyan Melayani Peserta Muslim United</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post post-style-2 d-flex align-items-center widget-post">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/blog-img/b12.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="headline">
+                                            <h5 class="mb-0">“Mengajak Ulil Asbhar Abdalla Berhenti Menjadi Liberal”</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">Jejaring Sosial</h5>
+                            <div class="widget-content">
+                                <div class="social-area d-flex justify-content-between">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Widget Area -->
+                        <div class="sidebar-widget-area">
+                            <h5 class="title">Update Hari Ini</h5>
+                            <div class="widget-content">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post todays-pick">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="img/blog-img/b22.jpg" alt="">
+                                    </div>
+                                    <!-- Post Content -->
+                                    <div class="post-content px-0 pb-0">
+                                        <a href="#" class="headline">
+                                            <h5>“Mengajak Ulil Asbhar Abdalla Berhenti Menjadi Liberal”</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
 
-	<div class="home">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="<?= base_url('front-assets/') ?>images/footer.jpg" data-speed="0.8" ></div>
-		<div class="home_content_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="home_content">
-							<div class="home_title">Artikel</div>
-							<div class="breadcrumbs">
-								<ul class="d-flex flex-row align-items-start justify-content-start">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="category.html">Info</a></li>
-									<li>Artikel</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                <!-- ============== Related Post ============== -->
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post">
+                            <!-- Post Thumbnail -->
+                            <div class="post-thumbnail">
+                                <img src="img/blog-img/b1.jpg" alt="">
+                                <!-- Catagory -->
+                                <div class="post-cta"><a href="#">TSAQAFAH</a></div>
+                            </div>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <a href="#" class="headline">
+                                    <h5>Operasi Militer Turki Lebih Besar Dari yang Diperkirakan</h5>
+                                </a>
+                                <p>Presiden Rusia Vladimir Putin menelepon Ankara setelah operasi Turki dimulai, menekankan bahwa ...</p>
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                    <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-	<!-- Content Container -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post">
+                            <!-- Post Thumbnail -->
+                            <div class="post-thumbnail">
+                                <img src="img/blog-img/b2.jpg" alt="">
+                                <!-- Catagory -->
+                                <div class="post-cta"><a href="#">TSAQAFAH</a></div>
+                            </div>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <a href="#" class="headline">
+                                    <h5>“Mengajak Ulil Asbhar Abdalla Berhenti Menjadi Liberal”</h5>
+                                </a>
+                                <p>Saya tidak sepakat dengan seorang peserta yang menyarankan, agar seorang yang beragama ...</p>
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                    <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-	<div class="content_container">
-		<div class="container">
-			<div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post">
+                            <!-- Post Thumbnail -->
+                            <div class="post-thumbnail">
+                                <img src="img/blog-img/b7.jpg" alt="">
+                                <!-- Catagory -->
+                                <div class="post-cta"><a href="#">LENTERA HIDUP</a></div>
+                                <!-- Video Button -->
+                                <a href="https://www.youtube.com/watch?v=IhnqEwFSJRg" class="video-btn"><i class="fa fa-play"></i></a>
+                            </div>
+                            <!-- Post Content -->
+                            <div class="post-content">
+                                <a href="#" class="headline">
+                                    <h5>Islam: Akidah, Syari’ah, Tashawuf</h5>
+                                </a>
+                                <p>Artinya: Dari Abu Hurairah Radhiyallahu’anhu ia berkata bahwa Rasulullah Shallallahu Alaihi Wasallam suatu hari ...</p>
+                                <!-- Post Meta -->
+                                <div class="post-meta">
+                                    <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-				<!-- Single Post -->
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="post-a-comment-area mt-70">
+                            <h5>Get in Touch</h5>
+                            <!-- Contact Form -->
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="group">
+                                            <input type="text" name="name" id="name" required>
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Enter your name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="group">
+                                            <input type="email" name="email" id="email" required>
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Enter your email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="group">
+                                            <textarea name="message" id="message" required></textarea>
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Enter your comment</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn world-btn">Post comment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
 
-				<div class="col-lg-9">
+                    <div class="col-12 col-lg-8">
+                        <!-- Comment Area Start -->
+                        <div class="comment_area clearfix mt-70">
+                            <ol>
+                                <!-- Single Comment Area -->
+                                <li class="single_comment_area">
+                                    <!-- Comment Content -->
+                                    <div class="comment-content">
+                                        <!-- Comment Meta -->
+                                        <div class="comment-meta d-flex align-items-center justify-content-between">
+                                            <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+                                            <a href="#" class="comment-reply btn world-btn">Reply</a>
+                                        </div>
+                                        <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened...</p>
+                                    </div>
+                                    <ol class="children">
+                                        <li class="single_comment_area">
+                                            <!-- Comment Content -->
+                                            <div class="comment-content">
+                                                <!-- Comment Meta -->
+                                                <div class="comment-meta d-flex align-items-center justify-content-between">
+                                                    <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+                                                    <a href="#" class="comment-reply btn world-btn">Reply</a>
+                                                </div>
+                                                <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened...</p>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                </li>
 
-					<div class="single_post">
-						<div class="post_image"><img src="<?= $news->images ?>" alt="https://unsplash.com/@cgower"></div>
-						<div class="post_content">
-							<div class="post_category cat_technology"><a href="#"><?= $news->category_name ?></a></div>
-							<div class="post_title"><a href="#"><?= $news->title ?></a></div>
-							<div class="post_info d-flex flex-row align-items-center justify-content-start">
-								<div class="post_author d-flex flex-row align-items-center justify-content-start">
-									<div><div class="post_author_image"><img src="<?= $news->author_image ?>" alt=""></div></div>
-									<div class="post_author_name"><a href="#"><?= $news->author ?></a></div>
-								</div>
-								<div class="post_date"><a href="#"><?= date("d M Y", $news->timestamp ) ?></a></div>
-								<div class="post_comments_num ml-auto"><a href="#">3 comments</a></div>
-							</div>
-							<div class="post_text">
-								<?= $file_content ?>
-							</div>
-						</div>
+                                <!-- Single Comment Area -->
+                                <li class="single_comment_area">
+                                    <!-- Comment Content -->
+                                    <div class="comment-content">
+                                        <!-- Comment Meta -->
+                                        <div class="comment-meta d-flex align-items-center justify-content-between">
+                                            <p><a href="#" class="post-author">Katy Liu</a> on <a href="#" class="post-date">Sep 29, 2017 at 9:48 am</a></p>
+                                            <a href="#" class="comment-reply btn world-btn">Reply</a>
+                                        </div>
+                                        <p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened...</p>
+                                    </div>
+                                </li>
 
-						<!-- Social Share -->
-						<div class="post_share d-flex flex-row align-items-center justify-content-start">
-							<div class="post_share_title">Bagikan:</div>
-							<ul class="post_share_list d-flex flex-row align-items-center justify-content-center">
-								<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						
-						<!-- Comments -->
-					
-						<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v4.0&appId=236183243598839&autoLogAppEvents=1"></script>
-						<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="" data-numposts="5"></div>
-						<!-- Reply  -->
-						
-					</div>
-
-				</div>
-
-				
-				<!-- Sidebar -->
-
-				<?php 
-					$this->load->view('templates/_public_parts/sidebar_menu', $right_bar);
-				?>		
-				<!--  -->
-				<!--  -->
-			</div>
-		</div>
-	</div>
-
-	
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
